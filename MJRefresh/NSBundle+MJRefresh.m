@@ -51,7 +51,7 @@
         } else {
             language = @"en";
         }
-        
+        language = @"zh-Hans"; // 简体中文 全部使用中文。
         // 从MJRefresh.bundle中查找资源
         bundle = [NSBundle bundleWithPath:[[NSBundle mj_refreshBundle] pathForResource:language ofType:@"lproj"]];
     }
